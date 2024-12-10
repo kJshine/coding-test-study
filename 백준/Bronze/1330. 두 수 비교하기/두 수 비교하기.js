@@ -4,8 +4,6 @@ input = input.split(" ");
 
 const a = Number(input[0]);
 const b = Number(input[1]);
-let c = '';
-if(a < b) c = '<';
-if(a > b) c = '>';
-if(a == b) c = '==';
-console.log(c);
+if(a < b) c = console.log('<');
+if(a > b) c = console.log('>');
+if(a == b) c = console.log('==');
