@@ -10,6 +10,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | 번호 | 문제 이름 | 난이도 | 유형 | 풀이 및 회고 |
 |--------|-----------|--------|------|--------------|
 | 120833 | 배열 자르기   | Level 0 |   | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/0/120833.%E2%80%85배열%E2%80%85자르기) |
+| 120854 | 배열 원소의 길이   | Level 0 |   | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/0/120854.%E2%80%85배열%E2%80%85원소의%E2%80%85길이) |
 
 ### 백준
 
