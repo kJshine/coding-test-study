@@ -9,7 +9,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 | 번호 | 문제 이름 | 난이도 | 유형 | 풀이 및 회고 |
 |--------|-----------|--------|------|--------------|
-| 120833 | 배열 자르기   | Level 0 | DFS  | [풀이 보기](./프로그래머스/0/120833.%20배열%20자르기/README.md) |
+| 120833 | 배열 자르기   | Level 0 | DFS  | [풀이 보기](/프로그래머스/0/120833.%20배열%20자르기) |
 
 ### 백준
 
