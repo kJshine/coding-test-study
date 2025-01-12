@@ -15,8 +15,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | 181939 | 더 크게 합치기 | Level 0 | 코딩 기초 트레이닝 | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/0/181939.%E2%80%85더%E2%80%85크게%E2%80%85합치기) |
 | 120818 | 옷가게 할인 받기 | Level 0 | 코딩 기초 트레이닝 | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/0/120818.%E2%80%85옷가게%E2%80%85할인%E2%80%85받기) |
 | 181930 | 주사위 게임 2 | Level 0 | 코딩 기초 트레이닝 | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/0/181930.%E2%80%85주사위%E2%80%85게임%E2%80%852) |
-| 181925 | 수 조작하기 2 | Level 0 | 코딩 기초 트레이닝 | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/0/181930.%E2%80%852수%E2%80%85조작하기%E2%80%852) |
-| 42842 | 카펫 | Level 2 | 완전탐색 | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/2/42842.%E2%80%852카펫) |
+| 181925 | 수 조작하기 2 | Level 0 | 코딩 기초 트레이닝 | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/0/181925.%E2%80%85수%E2%80%85조작하기%E2%80%852) |
+| 42842 | 카펫 | Level 2 | 완전탐색 | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/2/42842.%E2%80%85카펫) |
 ### 백준
 
 <!--
