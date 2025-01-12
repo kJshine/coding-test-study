@@ -1,6 +1,6 @@
-# [level 2] 카펫 - 42842 
+# [level 2] 카펫 - 42842
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42842) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42842)
 
 ### 성능 요약
 
@@ -66,5 +66,48 @@
 <p>※ 공지 - 2020년 2월 3일 테스트케이스가 추가되었습니다.<br>
 ※ 공지 - 2020년 5월 11일 웹접근성을 고려하여 빨간색을 노란색으로 수정하였습니다.</p>
 
-
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+## 💡 풀이 과정
+
+<!--
+1. 문제 접근 방법
+2. 사용한 알고리즘/자료구조
+3. 핵심 로직 설명
+-->
+
+## 🔍 새롭게 알게된 점
+
+## ⚠️ 주의할 점
+
+<!--
+- 시간복잡도 고려사항
+- 예외 케이스 처리
+-->
+
+## 🌱 개선 사항
+
+<!--
+- 더 효율적인 방법이 있다면 기록
+- 다른 풀이 방법 참고
+-->
+
+```
+function solution(brown, yellow) {
+    // 약수를 구하는 효율적인 방법
+    // 1. 약수 쌍의 특징: 약수는 대칭적으로 존재
+    // 2. 계산 효율성을 위해 제곱근까지만 반복
+    const arr = [];
+    for (let i = 1; i <= Math.sqrt(yellow); i++) {
+        if (yellow % i === 0) arr.push([i, yellow / i].sort((a, b) => b - a));
+    }
+
+    // 구조 분해를 통해 arr의 각 약수 쌍 순회
+    // yRow: 노란색 카펫의 행, yCol: 노란색 카펫의 열
+    for (let [yRow, yCol] of arr) {
+        if (brown === 2 * (yRow + 2) + 2 * (yCol)) {
+            return [yRow + 2, yCol + 2];
+        }
+    }
+}
+```
