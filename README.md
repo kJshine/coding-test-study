@@ -20,6 +20,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | 42842  | 카펫                          | Level 2 | 완전탐색                    | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/2/42842.%E2%80%85카펫)                                                   |
 | 12973  | 짝지어 제거하기               | Level 2 | 2017 팁스타운               | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/2/12973.%E2%80%85짝지어%E2%80%85제거하기)                                |
 | 12980  | 점프와 순간 이동              | Level 2 | Summer/Winter Coding(~2018) | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/2/12980.%E2%80%85점프와%E2%80%85순간%E2%80%85이동)                       |
+| 77884  | 약수의 개수와 덧셈            | Level 1 |                             | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/1/77884.%E2%80%85약수의%E2%80%85개수와%E2%80%85덧셈)                     |
+| 138476 | 귤 고르기                     | Level 2 |                             | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/2/138476.%E2%80%85귤%E2%80%85고르기)                                     |
 
 ### 백준
 

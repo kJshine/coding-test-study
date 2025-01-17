@@ -46,7 +46,6 @@ function solution(k, tangerine) {
         total += counts[i];
         if (total >= k) return i + 1; // 총 합이 k와 같거나 크면 해당 index + 1 출력
     }
-    
 }
 
 function addStack(stack, set, tangerine) {
