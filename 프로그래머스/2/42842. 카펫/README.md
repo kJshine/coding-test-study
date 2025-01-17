@@ -92,7 +92,7 @@
 - 다른 풀이 방법 참고
 -->
 
-```
+```Javascript
 function solution(brown, yellow) {
     // 약수를 구하는 효율적인 방법
     // 1. 약수 쌍의 특징: 약수는 대칭적으로 존재
