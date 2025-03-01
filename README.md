@@ -24,6 +24,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | 138476 | 귤 고르기                     | Level 2 |                             | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/2/138476.%E2%80%85귤%E2%80%85고르기)                                     |
 | 12940  | 최대공약수와 최소공배수       | Level 1 |                             | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/1/12940.%E2%80%85최대공약수와%E2%80%85최소공배수)                        |
 | 181865 | 간단한 식 계산하기            | Level 0 |                             | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/0/181865.%E2%80%85간단한%E2%80%85식%E2%80%85계산하기)                    |
+| 176963 | 추억 점수            | Level 1 |                             | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/1/176963.%E2%80%85추억%E2%80%85점수)                                     |
+| 136798 | 기사단원의 무기            | Level 1 |                             | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/1/136798.%E2%80%85기사단원의%E2%80%85무기)                                     |
 
 ### 백준
 

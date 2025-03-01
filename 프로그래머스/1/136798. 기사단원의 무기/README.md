@@ -1,6 +1,6 @@
-# [level 1] 기사단원의 무기 - 136798 
+# [level 1] 기사단원의 무기 - 136798
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/136798) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/136798)
 
 ### 성능 요약
 
@@ -75,5 +75,73 @@
 
 <p>1부터 10까지의 약수의 개수는 순서대로 [1, 2, 2, 3, 2, 4, 2, 4, 3, 4]개입니다. 공격력의 제한수치가 3이기 때문에, 6, 8, 10번 기사는 공격력이 2인 무기를 구매합니다. 따라서 해당 수들의 합인 21을 return 합니다.</p>
 
-
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+## 💡 풀이 과정
+
+<!--
+1. 문제 접근 방법
+2. 사용한 알고리즘/자료구조
+3. 핵심 로직 설명
+-->
+
+## 🔍 새롭게 알게된 점
+
+- 약수의 갯수를 구하는 공식을 좀 더 자세하게 알 수 있었다.
+
+## ⚠️ 주의할 점
+
+<!--
+- 시간복잡도 고려사항
+- 예외 케이스 처리
+-->
+
+## 🌱 개선 사항
+
+<!--
+- 더 효율적인 방법이 있다면 기록
+- 다른 풀이 방법 참고
+-->
+
+```javascript
+function solution(number, limit, power) {
+  let result = 0;
+  for (let i = 1; i <= number; i++) {
+    let num = 0;
+    for (let j = 1; j * j <= i; j++) {
+      if (i % j === 0) {
+        num++;
+        if (j !== i / j) num++;
+      }
+    }
+    result += num > limit ? power : num;
+  }
+  return result;
+}
+```
+
+이 코드는 테스트는 통과하였지만 리팩토링으로 변수명을 변경하고 함수를 분리할 수 있다.
+
+```javascript
+const countDivisor = (num) => {
+    let count = 0;
+    for (let i = 1; i * i <= num; i++) {
+        if (num % i === 0) {
+            count++;
+            if (i !== num / i) {
+                count++;
+            }
+        }
+    }
+    return count;
+}
+
+function solution(number, limit, power) {
+    let totalPower = 0;
+    for (let knight = 1; knight <= number; knight++) {
+        const divisorCount = countDivisor(knight);
+        totalPower += divisorCount > limit : power : divisorCount;
+    }
+    return totalPower;
+}
+```

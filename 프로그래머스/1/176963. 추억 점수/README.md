@@ -1,6 +1,6 @@
-# [level 1] 추억 점수 - 176963 
+# [level 1] 추억 점수 - 176963
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/176963) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/176963)
 
 ### 성능 요약
 
@@ -95,5 +95,66 @@
 
 <p>설명 생략</p>
 
-
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+## 💡 풀이 과정
+
+<!--
+1. 문제 접근 방법
+2. 사용한 알고리즘/자료구조
+3. 핵심 로직 설명
+-->
+
+## 🔍 새롭게 알게된 점
+
+## ⚠️ 주의할 점
+
+<!--
+- 시간복잡도 고려사항
+- 예외 케이스 처리
+-->
+
+## 🌱 개선 사항
+
+<!--
+- 더 효율적인 방법이 있다면 기록
+- 다른 풀이 방법 참고
+-->
+
+```javascript
+function solution(name, yearning, photo) {
+  const answer = [];
+  const scores = {};
+  for (let i = 0; i < name.length; i++) {
+    scores[name[i]] = yearning[i];
+  }
+
+  const operator = (photo) => {
+    return photo.reduce((acc, cur) => {
+      if (scores[cur]) return acc + scores[cur];
+      else return acc;
+    }, 0);
+  };
+
+  for (let i = 0; i < photo.length; i++) {
+    answer.push(operator(photo[i]));
+  }
+
+  return answer;
+}
+```
+
+이 코드는 테스트는 통과하였지만 함수형 프로그래밍 접근 방식으로 리팩토링이 가능하다.ㅋㅋ
+
+```javascript
+function solution(name, yearning, photo) {
+  const scores = name.reduce((obj, person, idx) => {
+    obj[person] = yearing[idx];
+    return obj;
+  });
+
+  return photo.map((persons) =>
+    persons.reduce((total, person) => total + (scores[person] || 0), 0)
+  );
+}
+```
