@@ -1,6 +1,6 @@
-# [level 0] 간단한 식 계산하기 - 181865 
+# [level 0] 간단한 식 계산하기 - 181865
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181865) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181865)
 
 ### 성능 요약
 
@@ -76,5 +76,55 @@
 <li>예제 3번의 <code>binomial</code>은 "40000 * 40000"으로 이 식을 계산한 결과인 40000 × 40000 = 1600000000을 return 합니다.</li>
 </ul>
 
-
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+## 💡 풀이 과정
+
+<!--
+1. 문제 접근 방법
+2. 사용한 알고리즘/자료구조
+3. 핵심 로직 설명
+-->
+
+## 🔍 새롭게 알게된 점
+
+## ⚠️ 주의할 점
+
+<!--
+- 시간복잡도 고려사항
+- 예외 케이스 처리
+-->
+
+## 🌱 개선 사항
+
+<!--
+- 더 효율적인 방법이 있다면 기록
+- 다른 풀이 방법 참고
+-->
+
+```javascript
+function solution(binomial) {
+  const [a, op, b] = binomial.split(" ");
+  if (op === "+") return Number(a) + Number(b);
+  else if (op === "-") return Number(a) - Number(b);
+  else return Number(a) * Number(b);
+}
+```
+
+여기에서 if 문 대신 객체 리터럴을 사용하여 조건문을 제거할 수 있다.
+
+```javascript
+function solution(binomial) {
+  const [a, op, b] = binomial.split(" ");
+  const numA = Number(a);
+  const numB = Number(b);
+
+  const operations = {
+    "+": (a, b) => a + b,
+    "-": (a, b) => a - b,
+    "*": (a, b) => a * b,
+  };
+
+  return operations[op](numA, numB);
+}
+```

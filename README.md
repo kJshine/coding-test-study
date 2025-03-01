@@ -23,6 +23,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | 77884  | 약수의 개수와 덧셈            | Level 1 |                             | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/1/77884.%E2%80%85약수의%E2%80%85개수와%E2%80%85덧셈)                     |
 | 138476 | 귤 고르기                     | Level 2 |                             | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/2/138476.%E2%80%85귤%E2%80%85고르기)                                     |
 | 12940  | 최대공약수와 최소공배수       | Level 1 |                             | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/1/12940.%E2%80%85최대공약수와%E2%80%85최소공배수)                        |
+| 181865 | 간단한 식 계산하기            | Level 0 |                             | [풀이 보기](https://github.com/kJshine/coding-test-study/tree/main/프로그래머스/0/181865.%E2%80%85간단한%E2%80%85식%E2%80%85계산하기)                    |
 
 ### 백준
 
