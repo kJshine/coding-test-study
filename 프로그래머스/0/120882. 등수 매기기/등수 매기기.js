@@ -6,7 +6,7 @@ function solution(score) {
         obj[(cur[0] + cur[1]) / 2] = i;
         acc.push(obj);
         return acc;
-    }, []).sort((a, b) => Object.keys(b) - Object.keys(a));
+    }, []).sort((a, b) => +Object.keys(b) - +Object.keys(a));
     
     let ranking = 0;
     let prevScore = 0;
