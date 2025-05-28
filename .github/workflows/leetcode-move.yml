@@ -77,7 +77,11 @@ jobs:
 
       - name: Pull latest changes
         run: |
-          git pull origin main || git pull origin master
+          echo "Pulling latest changes..."
+          git fetch origin
+          git status
+          echo "Current branch: $(git branch --show-current)"
+          git pull origin $(git branch --show-current) || echo "Pull failed, will try rebase later"
 
       - name: Move LeetCode solutions
         run: |
@@ -123,13 +127,28 @@ jobs:
             git add -A
             git commit -m "chore: Move 리트코드 solutions to 리트코드 folder"
             
-            # 푸시 전에 다시 한번 pull (충돌 방지)
-            echo "Pulling latest changes before push..."
-            git pull --rebase origin main || git pull --rebase origin master || echo "Pull failed, proceeding with push"
+            # 현재 브랜치 확인
+            current_branch=$(git branch --show-current)
+            echo "Current branch: $current_branch"
             
-            # 푸시
+            # 강제로 최신 상태 동기화
+            echo "Fetching latest changes..."
+            git fetch origin
+            
+            # rebase로 충돌 해결
+            echo "Rebasing changes..."
+            git rebase origin/$current_branch || {
+              echo "Rebase failed, trying merge..."
+              git merge origin/$current_branch || {
+                echo "Merge also failed, using force push with lease"
+                git push --force-with-lease origin $current_branch
+                exit 0
+              }
+            }
+            
+            # 정상 푸시
             echo "Pushing changes..."
-            git push origin HEAD:main || git push origin HEAD:master
+            git push origin $current_branch
           else
             echo "No changes to commit"
           fi
