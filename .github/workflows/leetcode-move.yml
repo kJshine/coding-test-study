@@ -1,3 +1,60 @@
+# name: Move LeetCode Solutions
+
+# on:
+#   workflow_dispatch: # 수동 실행 옵션 유지
+#   push:
+#     paths:
+#       - "[0-9][0-9][0-9][0-9]-*/**" # LeetHub가 생성하는 폴더 패턴 (예: 0020-valid-parentheses)
+
+# jobs:
+#   move-files:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v3
+#         with:
+#           fetch-depth: 2 # 최근 커밋 기록을 가져오기 위해 설정
+
+#       - name: Move LeetCode solutions
+#         run: |
+#           # 디버깅을 위한 현재 디렉토리 내용 출력
+#           echo "Current directory contents:"
+#           ls -la
+
+#           # 리트코드 폴더가 없다면 생성
+#           mkdir -p 리트코드
+
+#           # 변경된 파일 목록 확인
+#           echo "Changed files in this push:"
+#           git diff --name-only HEAD^ HEAD
+
+#           # LeetHub가 생성한 폴더들을 LeetCode 폴더로 이동
+#           found=0
+#           for d in [0-9][0-9][0-9][0-9]-*; do
+#             if [ -d "$d" ]; then
+#               echo "Moving directory: $d"
+#               mv "$d" "리트코드/" && found=1
+#             fi
+#           done
+
+#           # 이동할 폴더를 찾지 못했을 경우에도 오류로 처리하지 않음
+#           if [ $found -eq 0 ]; then
+#             echo "No matching directories found to move"
+#           fi
+
+#       - name: Commit & Push changes
+#         run: |
+#           # 변경사항이 있는지 확인
+#           if git status --porcelain | grep .; then
+#             git config --global user.name 'github-actions[bot]'
+#             git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+#             git add -A
+#             git commit -m "chore: Move 리트코드 solutions to 리트코드 folder"
+#             git push
+#           else
+#             echo "No changes to commit"
+#           fi
+
 name: Move LeetCode Solutions
 
 on:
@@ -9,11 +66,18 @@ on:
 jobs:
   move-files:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # 중요: 푸시 권한 명시
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # 최신 버전 사용
         with:
-          fetch-depth: 2 # 최근 커밋 기록을 가져오기 위해 설정
+          fetch-depth: 0 # 전체 히스토리 가져오기
+          token: ${{ secrets.GITHUB_TOKEN }} # 토큰 명시
+
+      - name: Pull latest changes
+        run: |
+          git pull origin main || git pull origin master
 
       - name: Move LeetCode solutions
         run: |
@@ -26,13 +90,18 @@ jobs:
 
           # 변경된 파일 목록 확인
           echo "Changed files in this push:"
-          git diff --name-only HEAD^ HEAD
+          git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "Unable to get diff"
 
           # LeetHub가 생성한 폴더들을 LeetCode 폴더로 이동
           found=0
           for d in [0-9][0-9][0-9][0-9]-*; do
-            if [ -d "$d" ]; then
+            if [ -d "$d" ] && [ "$d" != "리트코드" ]; then
               echo "Moving directory: $d"
+              # 이미 같은 이름의 폴더가 있는지 확인
+              if [ -d "리트코드/$d" ]; then
+                echo "Directory 리트코드/$d already exists, removing old one"
+                rm -rf "리트코드/$d"
+              fi
               mv "$d" "리트코드/" && found=1
             fi
           done
@@ -44,13 +113,23 @@ jobs:
 
       - name: Commit & Push changes
         run: |
+          # Git 설정
+          git config --local user.name 'github-actions[bot]'
+          git config --local user.email 'github-actions[bot]@users.noreply.github.com'
+
           # 변경사항이 있는지 확인
-          if git status --porcelain | grep .; then
-            git config --global user.name 'github-actions[bot]'
-            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          if git status --porcelain | grep -q .; then
+            echo "Changes detected, committing..."
             git add -A
             git commit -m "chore: Move 리트코드 solutions to 리트코드 folder"
-            git push
+            
+            # 푸시 전에 다시 한번 pull (충돌 방지)
+            echo "Pulling latest changes before push..."
+            git pull --rebase origin main || git pull --rebase origin master || echo "Pull failed, proceeding with push"
+            
+            # 푸시
+            echo "Pushing changes..."
+            git push origin HEAD:main || git push origin HEAD:master
           else
             echo "No changes to commit"
           fi
