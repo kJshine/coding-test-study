@@ -56,6 +56,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/kJshine/coding-test-study/tree/master/0053-maximum-subarray) |
+| [0139-word-break](https://github.com/kJshine/coding-test-study/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/kJshine/coding-test-study/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/kJshine/coding-test-study/tree/master/0322-coin-change) |
 ## Divide and Conquer
@@ -66,10 +67,27 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/kJshine/coding-test-study/tree/master/0053-maximum-subarray) |
+| [0139-word-break](https://github.com/kJshine/coding-test-study/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/kJshine/coding-test-study/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/kJshine/coding-test-study/tree/master/0322-coin-change) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/kJshine/coding-test-study/tree/master/0322-coin-change) |
+## Hash Table
+|  |
+| ------- |
+| [0139-word-break](https://github.com/kJshine/coding-test-study/tree/master/0139-word-break) |
+## String
+|  |
+| ------- |
+| [0139-word-break](https://github.com/kJshine/coding-test-study/tree/master/0139-word-break) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/kJshine/coding-test-study/tree/master/0139-word-break) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/kJshine/coding-test-study/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
