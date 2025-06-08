@@ -60,6 +60,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0139-word-break](https://github.com/kJshine/coding-test-study/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/kJshine/coding-test-study/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/kJshine/coding-test-study/tree/master/0322-coin-change) |
+| [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/kJshine/coding-test-study/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -82,6 +83,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0001-two-sum](https://github.com/kJshine/coding-test-study/tree/master/0001-two-sum) |
 | [0139-word-break](https://github.com/kJshine/coding-test-study/tree/master/0139-word-break) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kJshine/coding-test-study/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/kJshine/coding-test-study/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 ## String
 |  |
 | ------- |
@@ -114,4 +116,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kJshine/coding-test-study/tree/master/0653-two-sum-iv-input-is-a-bst) |
+## Counting
+|  |
+| ------- |
+| [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/kJshine/coding-test-study/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 <!---LeetCode Topics End-->
