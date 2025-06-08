@@ -61,6 +61,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0198-house-robber](https://github.com/kJshine/coding-test-study/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/kJshine/coding-test-study/tree/master/0322-coin-change) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/kJshine/coding-test-study/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
+| [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/kJshine/coding-test-study/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 ## Divide and Conquer
 |  |
 | ------- |
