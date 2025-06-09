@@ -3,11 +3,11 @@
  * @return {boolean}
  */
 var containsDuplicate = function(nums) {
-    const obj = {};
+    const set = new Set();
 
     for (const num of nums) {
-        if (obj[num]) return true;
-        obj[num] = (obj[num] || 0) + 1;
+        if (set.has(num)) return true;
+        set.add(num);
     }
 
     return false;
