@@ -59,6 +59,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0053-maximum-subarray](https://github.com/kJshine/coding-test-study/tree/master/0053-maximum-subarray) |
 | [0139-word-break](https://github.com/kJshine/coding-test-study/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/kJshine/coding-test-study/tree/master/0198-house-robber) |
+| [0217-contains-duplicate](https://github.com/kJshine/coding-test-study/tree/master/0217-contains-duplicate) |
 | [0322-coin-change](https://github.com/kJshine/coding-test-study/tree/master/0322-coin-change) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/kJshine/coding-test-study/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/kJshine/coding-test-study/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
@@ -83,6 +84,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0001-two-sum](https://github.com/kJshine/coding-test-study/tree/master/0001-two-sum) |
 | [0139-word-break](https://github.com/kJshine/coding-test-study/tree/master/0139-word-break) |
+| [0217-contains-duplicate](https://github.com/kJshine/coding-test-study/tree/master/0217-contains-duplicate) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kJshine/coding-test-study/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/kJshine/coding-test-study/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 ## String
@@ -121,4 +123,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/kJshine/coding-test-study/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/kJshine/coding-test-study/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
