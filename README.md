@@ -56,6 +56,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/kJshine/coding-test-study/tree/master/0001-two-sum) |
+| [0004-median-of-two-sorted-arrays](https://github.com/kJshine/coding-test-study/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/kJshine/coding-test-study/tree/master/0053-maximum-subarray) |
 | [0139-word-break](https://github.com/kJshine/coding-test-study/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/kJshine/coding-test-study/tree/master/0198-house-robber) |
@@ -66,6 +67,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Divide and Conquer
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/kJshine/coding-test-study/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/kJshine/coding-test-study/tree/master/0053-maximum-subarray) |
 ## Dynamic Programming
 |  |
@@ -114,6 +116,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Binary Search Tree
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/kJshine/coding-test-study/tree/master/0004-median-of-two-sorted-arrays) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kJshine/coding-test-study/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Binary Tree
 |  |
