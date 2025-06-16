@@ -61,6 +61,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0015-3sum](https://github.com/kJshine/coding-test-study/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/kJshine/coding-test-study/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/kJshine/coding-test-study/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/kJshine/coding-test-study/tree/master/0027-remove-element) |
 | [0053-maximum-subarray](https://github.com/kJshine/coding-test-study/tree/master/0053-maximum-subarray) |
 | [0139-word-break](https://github.com/kJshine/coding-test-study/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/kJshine/coding-test-study/tree/master/0198-house-robber) |
@@ -114,6 +115,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0015-3sum](https://github.com/kJshine/coding-test-study/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/kJshine/coding-test-study/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/kJshine/coding-test-study/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/kJshine/coding-test-study/tree/master/0027-remove-element) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kJshine/coding-test-study/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Tree
 |  |
