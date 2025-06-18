@@ -66,6 +66,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0053-maximum-subarray](https://github.com/kJshine/coding-test-study/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/kJshine/coding-test-study/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kJshine/coding-test-study/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0134-gas-station](https://github.com/kJshine/coding-test-study/tree/master/0134-gas-station) |
 | [0139-word-break](https://github.com/kJshine/coding-test-study/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/kJshine/coding-test-study/tree/master/0198-house-robber) |
 | [0217-contains-duplicate](https://github.com/kJshine/coding-test-study/tree/master/0217-contains-duplicate) |
@@ -161,4 +162,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0045-jump-game-ii](https://github.com/kJshine/coding-test-study/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/kJshine/coding-test-study/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kJshine/coding-test-study/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0134-gas-station](https://github.com/kJshine/coding-test-study/tree/master/0134-gas-station) |
 <!---LeetCode Topics End-->
