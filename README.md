@@ -48,6 +48,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/kJshine/coding-test-study/tree/master/0002-add-two-numbers) |
+| [0009-palindrome-number](https://github.com/kJshine/coding-test-study/tree/master/0009-palindrome-number) |
 ## Recursion
 |  |
 | ------- |
